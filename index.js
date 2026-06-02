@@ -16,7 +16,8 @@ const PREFS = [
   'user_pref("extensions.autoDisableScopes", 0);',
   'user_pref("browser.tabs.remote.autostart", false);',
   'user_pref("browser.tabs.remote.autostart.2", false);',
-  'user_pref("extensions.enabledScopes", 15);'
+  'user_pref("extensions.enabledScopes", 15);',
+  'user_pref("datareporting.policy.dataSubmissionEnabled", false);'
 ].join('\n')
 
 // NOTE: add 'config.browsers' to get which browsers are started
